@@ -1,13 +1,25 @@
-body { line-height: 1.7em; font-family: 'Roboto', sans-serif; }
-
+body { 
+    line-height: 1.7em; font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}
 .container{
+    display: block;
     margin: 0 auto;
 }
 
 nav{
-    border: 5px;
-    color: grey;
     float: right;
-    margin-right: 50px;
-    font-size: 40px;
+    border: 2px;
+    color: grey;
 }
+
+i{  
+    padding: 20px 20px 20px 20px;
+    font-size: 30px;
+    color: white;
+    background-color: #D3D3D3;
+}
+
+
+
+
