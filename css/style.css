@@ -1,16 +1,17 @@
 body { 
+    margin: 0 auto;
     line-height: 1.7em; font-family: 'Roboto', sans-serif;
     color: rgba(255, 255, 255, 0.8);
 }
 .container{
     display: block;
-    margin: 0 auto;
 }
 
 nav{
     float: right;
     border: 2px;
     color: grey;
+    margin-right: 100px;
 }
 
 i{  
@@ -20,6 +21,12 @@ i{
     background-color: #D3D3D3;
 }
 
+img{
+    margin-top: 70px;
+    position: fixed;
+}
 
-
+img:nth-of-type(2){
+    padding: 100px;
+}
 
