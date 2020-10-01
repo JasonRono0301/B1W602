@@ -4,14 +4,14 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 .container{
-    display: block;
+   display: block;
 }
 
 nav{
     float: right;
+    margin-right: 100px;
     border: 2px;
     color: grey;
-    margin-right: 100px;
 }
 
 i{  
@@ -21,24 +21,4 @@ i{
     background-color: #D3D3D3;
 }
 
-img{
-    z-index: -1;
-    margin-top: 70px;
-    position: fixed;
-}
 
-img:nth-of-type(2){
-    width: 400px;
-    padding-top: 300px;
-    padding-left: 700px;
-}
-.items{
-    width: 500px;
-    padding-top: 600px;
-    padding-left: 600px;
-
-}
-ul li{
-    display: inline;
-    margin-right: 10px;
-}
