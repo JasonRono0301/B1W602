@@ -2,13 +2,19 @@ body {
     margin: 0 auto;
     line-height: 1.7em; font-family: 'Roboto', sans-serif;
     color: rgba(255, 255, 255, 0.8);
+    background-image: url(../B1W602---Template-master/voorbeeld/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 70px;
 }
+
 .container{
-   display: block;
+    display: block;
 }
+
 
 nav{
     float: right;
+    background-color: white;
     margin-right: 100px;
     border: 2px;
     color: grey;
